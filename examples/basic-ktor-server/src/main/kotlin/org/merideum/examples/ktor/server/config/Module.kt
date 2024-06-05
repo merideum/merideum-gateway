@@ -23,7 +23,7 @@ fun Application.module() {
 
     val httpClient = prepareHttpClient()
 
-    val resourceResolver = ExternalResourceResolver(mapOf("com.merideum.example.HelloWorld" to ExternalResource("http://localhost:8081/merideum/resource/com/merideum/example/HelloWorld", httpClient)))
+    val resourceResolver = ExternalResourceResolver(mapOf("org.requestscript.example.HelloWorld" to ExternalResource("http://localhost:8081/rqs/resource/org/requestscript/example/HelloWorld", httpClient)))
 
     routing {
         route("/merideum") {

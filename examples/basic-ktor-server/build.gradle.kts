@@ -15,7 +15,7 @@ dependencies {
     val ktorVersion: String by project
     val logbackVersion: String by project
 
-    implementation("org.merideum.core:api:0.0.1")
+    implementation("org.requestscript.core:api:0.0.1")
 //    implementation(project(":ktor:server"))
 
     implementation("io.ktor:ktor-server-core:$ktorVersion")
